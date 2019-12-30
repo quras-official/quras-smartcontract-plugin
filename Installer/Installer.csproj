@@ -53,11 +53,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Quras.SmartContract.Framework\Quras.SmartContract.Framework.csproj">
-      <Project>{c30b5859-d4b9-46e8-a797-6b0a1b49b590}</Project>
-      <Name>Quras.SmartContract.Framework</Name>
-      <AdditionalProperties>TargetFramework=net40</AdditionalProperties>
-    </ProjectReference>
     <ProjectReference Include="..\Template.CSharp\Template.CSharp.csproj">
       <Project>{6F0591A9-B218-49BB-B666-CE6D1FA8F990}</Project>
       <Name>Template.CSharp</Name>
@@ -75,6 +70,9 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Quras.SmartContract.Framework, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quras.SmartContract.Framework.1.1.0\lib\net40\Quras.SmartContract.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
