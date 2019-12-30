@@ -4,49 +4,49 @@
     {
         public extern byte[] Hash
         {
-            [Syscall("Module.Header.GetHash")]
+            [Syscall("Quras.Header.GetHash")]
             get;
         }
 
         public extern uint Version
         {
-            [Syscall("Module.Header.GetVersion")]
+            [Syscall("Quras.Header.GetVersion")]
             get;
         }
 
         public extern byte[] PrevHash
         {
-            [Syscall("Module.Header.GetPrevHash")]
+            [Syscall("Quras.Header.GetPrevHash")]
             get;
         }
 
         public extern byte[] MerkleRoot
         {
-            [Syscall("Module.Header.GetMerkleRoot")]
+            [Syscall("Quras.Header.GetMerkleRoot")]
             get;
         }
 
         public extern uint Timestamp
         {
-            [Syscall("Module.Header.GetTimestamp")]
+            [Syscall("Quras.Header.GetTimestamp")]
             get;
         }
 
         public extern uint Index
         {
-            [Syscall("Module.Header.GetIndex")]
+            [Syscall("Quras.Header.GetIndex")]
             get;
         }
 
         public extern ulong ConsensusData
         {
-            [Syscall("Module.Header.GetConsensusData")]
+            [Syscall("Quras.Header.GetConsensusData")]
             get;
         }
 
         public extern byte[] NextConsensus
         {
-            [Syscall("Module.Header.GetNextConsensus")]
+            [Syscall("Quras.Header.GetNextConsensus")]
             get;
         }
     }

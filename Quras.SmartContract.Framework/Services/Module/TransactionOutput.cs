@@ -4,19 +4,19 @@
     {
         public extern byte[] AssetId
         {
-            [Syscall("Module.Output.GetAssetId")]
+            [Syscall("Quras.Output.GetAssetId")]
             get;
         }
 
         public extern long Value
         {
-            [Syscall("Module.Output.GetValue")]
+            [Syscall("Quras.Output.GetValue")]
             get;
         }
 
         public extern byte[] ScriptHash
         {
-            [Syscall("Module.Output.GetScriptHash")]
+            [Syscall("Quras.Output.GetScriptHash")]
             get;
         }
     }

@@ -4,29 +4,29 @@
     {
         public extern byte[] Hash
         {
-            [Syscall("Module.Transaction.GetHash")]
+            [Syscall("Quras.Transaction.GetHash")]
             get;
         }
 
         public extern byte Type
         {
-            [Syscall("Module.Transaction.GetType")]
+            [Syscall("Quras.Transaction.GetType")]
             get;
         }
 
-        [Syscall("Module.Transaction.GetAttributes")]
+        [Syscall("Quras.Transaction.GetAttributes")]
         public extern TransactionAttribute[] GetAttributes();
 
-        [Syscall("Module.Transaction.GetInputs")]
+        [Syscall("Quras.Transaction.GetInputs")]
         public extern TransactionInput[] GetInputs();
 
-        [Syscall("Module.Transaction.GetOutputs")]
+        [Syscall("Quras.Transaction.GetOutputs")]
         public extern TransactionOutput[] GetOutputs();
 
-        [Syscall("Module.Transaction.GetReferences")]
+        [Syscall("Quras.Transaction.GetReferences")]
         public extern TransactionOutput[] GetReferences();
 
-        [Syscall("Module.Transaction.GetUnspentCoins")]
+        [Syscall("Quras.Transaction.GetUnspentCoins")]
         public extern TransactionOutput[] GetUnspentCoins();
     }
 }

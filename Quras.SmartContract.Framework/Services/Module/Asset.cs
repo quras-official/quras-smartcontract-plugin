@@ -4,56 +4,56 @@
     {
         public extern byte[] AssetId
         {
-            [Syscall("Module.Asset.GetAssetId")]
+            [Syscall("Quras.Asset.GetAssetId")]
             get;
         }
 
         public extern byte AssetType
         {
-            [Syscall("Module.Asset.GetAssetType")]
+            [Syscall("Quras.Asset.GetAssetType")]
             get;
         }
 
         public extern long Amount
         {
-            [Syscall("Module.Asset.GetAmount")]
+            [Syscall("Quras.Asset.GetAmount")]
             get;
         }
 
         public extern long Available
         {
-            [Syscall("Module.Asset.GetAvailable")]
+            [Syscall("Quras.Asset.GetAvailable")]
             get;
         }
 
         public extern byte Precision
         {
-            [Syscall("Module.Asset.GetPrecision")]
+            [Syscall("Quras.Asset.GetPrecision")]
             get;
         }
 
         public extern byte[] Owner
         {
-            [Syscall("Module.Asset.GetOwner")]
+            [Syscall("Quras.Asset.GetOwner")]
             get;
         }
 
         public extern byte[] Admin
         {
-            [Syscall("Module.Asset.GetAdmin")]
+            [Syscall("Quras.Asset.GetAdmin")]
             get;
         }
 
         public extern byte[] Issuer
         {
-            [Syscall("Module.Asset.GetIssuer")]
+            [Syscall("Quras.Asset.GetIssuer")]
             get;
         }
 
-        [Syscall("Module.Asset.Create")]
+        [Syscall("Quras.Asset.Create")]
         public static extern Asset Create(byte asset_type, string name, long amount, byte precision, byte[] owner, byte[] admin, byte[] issuer);
 
-        [Syscall("Module.Asset.Renew")]
+        [Syscall("Quras.Asset.Renew")]
         public extern uint Renew(byte years);
     }
 }

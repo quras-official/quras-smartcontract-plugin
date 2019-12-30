@@ -33,8 +33,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Module.SmartContract.Framework, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Module.SmartContract.Framework.1.0.1\lib\net40\Module.SmartContract.Framework.dll</HintPath>
+    <Reference Include="Quras.SmartContract.Framework, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quras.SmartContract.Framework.1.1.0\lib\net40\Quras.SmartContract.Framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -50,8 +50,8 @@ $endif$
 
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
-    <Import Include="Module.SmartContract.Framework" />
-    <Import Include="Module.SmartContract.Framework.Services.Module" />
+    <Import Include="Quras.SmartContract.Framework" />
+    <Import Include="Quras.SmartContract.Framework.Services.Module" />
     <Import Include="System" />
     <Import Include="System.Collections" />
     <Import Include="System.Collections.Generic" />
@@ -78,7 +78,7 @@ $endif$
     <None Include="build.tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Module.ConvertTask.dll" />
+    <Content Include="Quras.ConvertTask.dll" />
   </ItemGroup>
 
   <ItemGroup>

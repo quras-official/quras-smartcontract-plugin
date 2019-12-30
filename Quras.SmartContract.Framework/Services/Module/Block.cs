@@ -2,13 +2,13 @@
 {
     public class Block : Header
     {
-        [Syscall("Module.Block.GetTransactionCount")]
+        [Syscall("Quras.Block.GetTransactionCount")]
         public extern int GetTransactionCount();
 
-        [Syscall("Module.Block.GetTransactions")]
+        [Syscall("Quras.Block.GetTransactions")]
         public extern Transaction[] GetTransactions();
 
-        [Syscall("Module.Block.GetTransaction")]
+        [Syscall("Quras.Block.GetTransaction")]
         public extern Transaction GetTransaction(int index);
     }
 }

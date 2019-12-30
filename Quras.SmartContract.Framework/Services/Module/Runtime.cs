@@ -4,23 +4,23 @@
     {
         public static extern TriggerType Trigger
         {
-            [Syscall("Module.Runtime.GetTrigger")]
+            [Syscall("Quras.Runtime.GetTrigger")]
             get;
         }
 
         public static extern uint Time
         {
-            [Syscall("Module.Runtime.GetTime")]
+            [Syscall("Quras.Runtime.GetTime")]
             get;
         }
 
-        [Syscall("Module.Runtime.CheckWitness")]
+        [Syscall("Quras.Runtime.CheckWitness")]
         public static extern bool CheckWitness(byte[] hashOrPubkey);
 
-        [Syscall("Module.Runtime.Notify")]
+        [Syscall("Quras.Runtime.Notify")]
         public static extern void Notify(params object[] state);
 
-        [Syscall("Module.Runtime.Log")]
+        [Syscall("Quras.Runtime.Log")]
         public static extern void Log(string message);
     }
 }

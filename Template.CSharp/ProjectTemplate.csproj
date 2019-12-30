@@ -31,8 +31,8 @@
 		<WarningLevel>4</WarningLevel>
 	</PropertyGroup>
 	<ItemGroup>
-    <Reference Include="Quras.SmartContract.Framework, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Quras.SmartContract.Framework.1.0.1\lib\net40\Quras.SmartContract.Framework.dll</HintPath>
+    <Reference Include="Quras.SmartContract.Framework, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quras.SmartContract.Framework.1.1.0\lib\net40\Quras.SmartContract.Framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System"/>

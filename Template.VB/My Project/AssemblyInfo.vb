@@ -7,10 +7,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Module.SmartContract.Template.VB")>
+<Assembly: AssemblyTitle("Quras.SmartContract.Template.VB")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Module.SmartContract.Template.VB")>
+<Assembly: AssemblyProduct("Quras.SmartContract.Template.VB")>
 <Assembly: AssemblyCopyright("© The Module Project 2018 Released under the MIT license")>
 <Assembly: AssemblyTrademark("")>
 
@@ -31,4 +31,6 @@ Imports System.Runtime.InteropServices
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("1.0.1")>
+<Assembly: AssemblyFileVersion("1.1.0")>
+
 '<Assembly: AssemblyFileVersion("1.0.0.0")>

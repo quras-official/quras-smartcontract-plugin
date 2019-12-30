@@ -4,13 +4,13 @@
     {
         public extern byte Usage
         {
-            [Syscall("Module.Attribute.GetUsage")]
+            [Syscall("Quras.Attribute.GetUsage")]
             get;
         }
 
         public extern byte[] Data
         {
-            [Syscall("Module.Attribute.GetData")]
+            [Syscall("Quras.Attribute.GetData")]
             get;
         }
     }

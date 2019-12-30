@@ -4,7 +4,7 @@
     {
         public extern byte[] Script
         {
-            [Syscall("Module.InvocationTransaction.GetScript")]
+            [Syscall("Quras.InvocationTransaction.GetScript")]
             get;
         }
     }

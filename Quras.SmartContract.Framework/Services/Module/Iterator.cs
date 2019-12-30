@@ -2,18 +2,18 @@
 {
     public class Iterator<TKey, TValue>
     {
-        [Syscall("Module.Iterator.Next")]
+        [Syscall("Quras.Iterator.Next")]
         public extern bool Next();
 
         public extern TKey Key
         {
-            [Syscall("Module.Iterator.Key")]
+            [Syscall("Quras.Iterator.Key")]
             get;
         }
 
         public extern TValue Value
         {
-            [Syscall("Module.Iterator.Value")]
+            [Syscall("Quras.Iterator.Value")]
             get;
         }
     }

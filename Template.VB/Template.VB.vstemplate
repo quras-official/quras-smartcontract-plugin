@@ -19,7 +19,7 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="My Project\AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="My Project\Application.myapp">MyApplication.myapp</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="My Project\Application.Designer.vb">MyApplication.Designer.vb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="Module.ConvertTask.dll">Module.ConvertTask.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Quras.ConvertTask.dll">Quras.ConvertTask.dll</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="build.tasks">build.tasks</ProjectItem>
     </Project>
   </TemplateContent>

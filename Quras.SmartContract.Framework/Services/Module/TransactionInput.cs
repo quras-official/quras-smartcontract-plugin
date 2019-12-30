@@ -4,13 +4,13 @@
     {
         public extern byte[] PrevHash
         {
-            [Syscall("Module.Input.GetHash")]
+            [Syscall("Quras.Input.GetHash")]
             get;
         }
 
         public extern ushort PrevIndex
         {
-            [Syscall("Module.Input.GetIndex")]
+            [Syscall("Quras.Input.GetIndex")]
             get;
         }
     }

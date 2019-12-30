@@ -36,10 +36,10 @@ namespace Quras.SmartContract.Framework
         [NonemitWithConvert(ConvertMethod.ToScriptHash)]
         public extern static byte[] ToScriptHash(this string address);
 
-        [Syscall("Module.Runtime.Serialize")]
+        [Syscall("Quras.Runtime.Serialize")]
         public extern static byte[] Serialize(this object source);
 
-        [Syscall("Module.Runtime.Deserialize")]
+        [Syscall("Quras.Runtime.Deserialize")]
         public extern static object Deserialize(this byte[] source);
     }
 }

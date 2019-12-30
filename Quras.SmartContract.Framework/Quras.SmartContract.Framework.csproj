@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Copyright>2018-2019 The Quras Project</Copyright>
     <AssemblyTitle>Neo.SmartContract.Framework</AssemblyTitle>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <Authors>The Quras Project</Authors>
     <TargetFrameworks>netstandard1.6;net40</TargetFrameworks>
     <AssemblyName>Quras.SmartContract.Framework</AssemblyName>
     <PackageId>Quras.SmartContract.Framework</PackageId>
     <PackageTags>Quras;Blockchain;SmartContract;VM</PackageTags>
-    <PackageProjectUrl>https://dotFund@bitbucket.org/qurasdev/quras-sc-plugin-dev.git</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/quras-official/quras-smartcontract-plugin</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://dotFund@bitbucket.org/qurasdev/quras-sc-plugin-dev.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/quras-official/quras-smartcontract-plugin</RepositoryUrl>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.0</NetStandardImplicitPackageVersion>
     <Company>The Quras Project</Company>
     <Description>Quras.SmartContract.Framework</Description>

@@ -4,17 +4,17 @@
     {
         public extern byte[] ScriptHash
         {
-            [Syscall("Module.Account.GetScriptHash")]
+            [Syscall("Quras.Account.GetScriptHash")]
             get;
         }
 
         public extern byte[][] Votes
         {
-            [Syscall("Module.Account.GetVotes")]
+            [Syscall("Quras.Account.GetVotes")]
             get;
         }
 
-        [Syscall("Module.Account.GetBalance")]
+        [Syscall("Quras.Account.GetBalance")]
         public extern long GetBalance(byte[] asset_id);
     }
 }
