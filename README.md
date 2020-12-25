@@ -9,4 +9,4 @@
 
 This is the plugin repository of smart contract.
 
-For detailed documentation, see [blockapi.quraswallet.org](http://blockapi.quraswallet.org/quras-js/docs/en/whitepaper/wp-virtualmachine.html).
+For detailed documentation, see [docs.quras.io](https://docs.quras.io/en/wp-virtualmachine.html).
